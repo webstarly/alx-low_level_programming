@@ -30,7 +30,7 @@ int main(void)
 
 		if (counter == 49)		
 		break;
-		printf(", ")
+		printf(", ");
 		tmp = x; 
 		x = y;
 		y = x + tmp;																				counter++;
