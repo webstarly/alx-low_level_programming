@@ -34,7 +34,8 @@ int main(void)
 		tmp = x;
 		x = y;
 		y = x + tmp;
-		counter++;}
+		counter++;
+	}
 	putchar('\n');
 	return (0);
 }
