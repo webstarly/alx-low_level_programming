@@ -28,10 +28,10 @@ int main(void)
 	{
 		printf("%li", x + y);
 
-		if (counter == 49)		
+		if (counter == 49)
 		break;
 		printf(", ");
-		tmp = x; 
+		tmp = x;
 		x = y;
 		y = x + tmp;
 		counter++;}
