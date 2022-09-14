@@ -1,15 +1,13 @@
 #include "main.h"
 
 /**
- *
  * jack_bauer - prints the minutes of a day, start from 00:00
  *
  * Retrun: no return
- *
  */
 void jack_bauer(void)
 {
-	int a, b, c, d;
+	int a, b, c, d
 
 	for (a = 48; a <= 50; a++)
 {
