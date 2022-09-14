@@ -33,8 +33,8 @@ int main(void)
 		printf(", ");
 		tmp = x; 
 		x = y;
-		y = x + tmp;																				counter++;
-	}
+		y = x + tmp;
+		counter++;}
 	putchar('\n');
 	return (0);
 }
