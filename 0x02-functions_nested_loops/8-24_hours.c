@@ -2,7 +2,7 @@
 
 /**
  *
- * jack_bauer - prints the minutes of a day
+ * jack_bauer - prints the minutes of a day, start from 00:00
  *
  * Retrun: no return
  *
