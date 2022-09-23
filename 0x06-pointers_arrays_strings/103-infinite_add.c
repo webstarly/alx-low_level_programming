@@ -42,7 +42,8 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 			add = 0;
 		if (op > 0)
 			*(r + bg) = (op % 10) + 48;
-		else																										*(r + bg) = '0';
+		else
+			*(r + bg) = '0';
 		if (c1 > 0)
 			c1--, dr1 = *(n1 + c1) - 48;
 		else
