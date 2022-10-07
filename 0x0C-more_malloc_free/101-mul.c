@@ -103,7 +103,7 @@ int main(int argc, char *argv[])
 	{
 		if (i < 0)
 		{
-			if (add1 > 0)
+			if (addl > 0)
 			{
 				add = (nout[k] - '0') + addl;
 				if (add > 9)
