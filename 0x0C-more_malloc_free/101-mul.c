@@ -45,7 +45,27 @@ void _is_zero(char *argv[])
  */
 char *_initialize_array(char *ar, int lar)
 {
-	int i;
+	int i = 0;
+
+	for (i = 0; i < lar; i++)
+		ar[i] = '0';
+	ar[lar] = '\0';
+	return (ar);
+}
+/**
+ * * _checknum - determines length of the number
+ *
+ * * and checks if number is in base 10.
+ *
+ * * @argv: arguments vector.
+ *
+ * * @n: row of the array.
+ *
+ * * Return: length of the number.
+ */
+int _checknum(char *argv[], int n)
+{
+	int ln;
 
 	for (ln = 0; argv[n][ln]; ln++)
 		if (!isdigit(argv[n][ln]))
