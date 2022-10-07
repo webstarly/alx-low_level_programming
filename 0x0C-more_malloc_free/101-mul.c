@@ -92,9 +92,8 @@ int main(int argc, char *argv[])
 	char *nout;
 
 	if (argc != 3)
-
-	printf("Error\n"), exit(98);
-		ln1 = _checknum(argv, 1), ln2 = _checknum(argv, 2);
+		printf("Error\n"), exit(98);
+	ln1 = _checknum(argv, 1), ln2 = _checknum(argv, 2);
 	_is_zero(argv), lnout = ln1 + ln2, nout = malloc(lnout + 1);
 	if (nout == NULL)
 		printf("Error\n"), exit(98);
@@ -104,7 +103,7 @@ int main(int argc, char *argv[])
 	{
 		if (i < 0)
 		{
-			if (add > 9)
+			if (add1 > 0)
 			{
 				add = (nout[k] - '0') + addl;
 				if (add > 9)
