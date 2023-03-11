@@ -36,4 +36,3 @@ def island_perimeter(grid):
                 if (grid[lth][bth + 1]) == 0:
                     p += 1  # right surrounded by water
     return p
-
